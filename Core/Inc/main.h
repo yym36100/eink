@@ -63,12 +63,14 @@ void Error_Handler(void);
 #define button_GPIO_Port GPIOA
 #define eink_res_Pin GPIO_PIN_3
 #define eink_res_GPIO_Port GPIOA
-#define eink_dc_Pin GPIO_PIN_4
-#define eink_dc_GPIO_Port GPIOA
+#define flash_cs_Pin GPIO_PIN_4
+#define flash_cs_GPIO_Port GPIOA
 #define eink_cs_Pin GPIO_PIN_6
 #define eink_cs_GPIO_Port GPIOA
 #define eink_busy_Pin GPIO_PIN_0
 #define eink_busy_GPIO_Port GPIOB
+#define eink_dc_Pin GPIO_PIN_1
+#define eink_dc_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
